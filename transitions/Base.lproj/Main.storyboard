@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="305" y="418"/>
         </scene>
-        <!--View Controller-->
+        <!--Updated View Controller-->
         <scene sceneID="mVz-ac-Rpp">
             <objects>
-                <viewController id="VBe-6t-bkM" sceneMemberID="viewController">
+                <viewController id="VBe-6t-bkM" customClass="UpdatedViewController" customModule="transitions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="M8Q-Ne-EhY"/>
                         <viewControllerLayoutGuide type="bottom" id="L1q-B4-ghn"/>
@@ -44,12 +44,27 @@
                     <view key="view" contentMode="scaleToFill" id="qrr-xS-o2T">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zas-2R-9IG">
+                                <rect key="frame" x="180" y="322" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="glitch" translatesAutoresizingMaskIntoConstraints="NO" id="Nzy-zE-VJ4">
+                                <rect key="frame" x="180" y="103" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="bottomImage" destination="Zas-2R-9IG" id="c4S-k7-Iwf"/>
+                        <outlet property="topImage" destination="Nzy-zE-VJ4" id="sVV-yx-YS9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2bN-Zb-hrc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1064" y="418"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glitch" width="188" height="104"/>
+    </resources>
 </document>

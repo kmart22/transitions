@@ -61,8 +61,6 @@
 				21DC78A21DA2994C0009A702 /* ViewController.swift */,
 				21DC78B31DA29D580009A702 /* UpdatedViewController.swift */,
 				21DC78B51DA29D7D0009A702 /* View */,
-				21DC78A41DA2994C0009A702 /* Main.storyboard */,
-				21DC78A91DA2994C0009A702 /* LaunchScreen.storyboard */,
 				21DC78A71DA2994C0009A702 /* Assets.xcassets */,
 				21DC78AC1DA2994C0009A702 /* Info.plist */,
 			);
@@ -79,6 +77,8 @@
 		21DC78B51DA29D7D0009A702 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				21DC78A41DA2994C0009A702 /* Main.storyboard */,
+				21DC78A91DA2994C0009A702 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
